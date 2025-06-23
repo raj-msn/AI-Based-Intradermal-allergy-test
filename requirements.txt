@@ -1,0 +1,34 @@
+# It is highly recommended to pin the exact versions of these packages for full reproducibility.
+# You can generate a pinned version of this file with: pip freeze > requirements.txt
+
+# --- Core ML/DL Frameworks ---
+# Please install PyTorch first, following the official instructions for your system (CPU/GPU):
+# https://pytorch.org/get-started/locally/
+torch
+torchvision
+
+# --- Object Detection & Segmentation ---
+ultralytics
+supervision==0.3.0
+transformers
+pytorch-lightning
+timm
+pycocotools
+
+# Detectron2 needs to be installed manually following the official instructions.
+# For example, for a specific CUDA/PyTorch version:
+# pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu118/torch2.0/index.html
+# detectron2
+
+# --- Data & Utilities ---
+roboflow
+inference-sdk # For Roboflow inference
+pandas
+opencv-python
+matplotlib
+seaborn
+scipy
+
+# --- StyleGAN Dependencies ---
+ninja # Required for StyleGAN2-ADA custom CUDA kernels
+cython 

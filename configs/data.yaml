@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['flares', 'tag']
+
+roboflow:
+  workspace: rajs-workspace
+  project: special_project-amnvn
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rajs-workspace/special_project-amnvn/dataset/10
