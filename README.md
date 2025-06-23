@@ -1,1 +1,1 @@
-# AI-Based-intradermal-allergy-test-
+# AI-Based-intradermal-allergy-test
